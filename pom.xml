@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sqaas</name>
+	<name>software-dev-quotes-as-a-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
