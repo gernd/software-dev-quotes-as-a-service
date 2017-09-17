@@ -2,6 +2,7 @@ package io.github.gernd.sqaas.endpoints;
 
 import io.github.gernd.sqaas.endpoints.dto.QuoteDto;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class QuotesEndpoint {
 
     @GetMapping(path = "/quotes")
