@@ -1,6 +1,5 @@
 package io.github.gernd.sqaas;
 
-import io.github.gernd.sqaas.endpoints.dto.QuoteDto;
 import io.github.gernd.sqaas.model.QuoteEntity;
 import io.github.gernd.sqaas.model.QuoteRepository;
 import lombok.extern.slf4j.Slf4j;
